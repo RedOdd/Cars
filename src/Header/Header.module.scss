@@ -1,0 +1,135 @@
+.Main{
+    background-image: url('../Charger_Customs_Free_Psd_Template-assets/img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 810px;
+}
+.Header{
+    display: grid;
+    grid-template-columns:1fr 10fr 1fr ;
+    grid-template-areas:'ic b M' ;
+    color: white;
+}
+.Icons{
+    padding-top:41px;
+}
+
+.icons{
+    margin-left: 20px;
+    grid-area: ic;
+    font-family: 'Playfair Display', serif;
+    height: 50px;
+    width: 100px;
+    display:grid;
+    grid-template-areas:'i ch'
+                        'i cu' ;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+  
+}
+.icon{
+    grid-area: i;
+}
+.Changer{
+    font-size: 17px;
+    font-weight: bold;
+    grid-area: ch;
+}
+.Customs{
+    font-size: 7px;
+    grid-area: cu;
+}
+
+.bar{
+    margin-top: 41px;
+    margin-left:420px;
+    grid-area: b;
+}
+
+ul li{
+    
+    font-family: 'Kulim Park', sans-serif;
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 12px;
+ 
+    
+}
+.MainText{
+    letter-spacing: 3px;
+    line-height: 96px;
+    color: #e3a062;
+ font-size: 96px;
+ font-weight: 600;
+ font-family: 'Playfair Display', serif;   
+}
+.Chargers{
+ margin-top: 114px;
+ margin-left: 650px;
+}
+.SecondText{
+    margin-top: 60px;
+    color: white;
+    line-height: 25px;
+    font-family: 'Kulim Park', sans-serif;
+}
+.More{
+    margin-top: 68px;
+    font-family: 'Kulim Park', sans-serif;
+}
+.ref{
+    display: block;
+    color:#e3a062;
+    text-decoration: none;
+}
+.line{
+    height:1px ;
+    width: 85px;
+   margin-top: 7px;
+    background-color :#e3a062;
+}
+.lastbar{
+    grid-area: L;
+    color: white;
+}
+.between{
+    height:2px ;
+    margin-top: 20px;
+    width: 105px;
+    background-color :white;
+    grid-area: b;
+}
+.Numbers{
+    color: white;
+    grid-area: N;
+    height: 10px;
+    width: 100px;
+    display: grid;
+    grid-template-areas:'f b s' ;
+    grid-auto-columns: 1fr 5fr 1fr;
+    font-family: 'Playfair Display', serif;  
+    font-size: 26px;
+}
+.first{
+    grid-area: f;   
+}
+.second{
+    grid-area: s;
+}
+.scroll{
+    color: white;
+    margin-top: 15px;
+    grid-area: S;
+    font-family: 'Kulim Park', sans-serif;
+    margin-left: 550px;
+}
+.Link{
+    
+    color: white;
+}
+.End{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-areas: 'L N S';
+}

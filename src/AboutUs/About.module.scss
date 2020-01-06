@@ -1,0 +1,57 @@
+.About{
+    background-image: url('../Charger_Customs_Free_Psd_Template-assets/fon.png');
+    background-size: cover;
+    display: grid;
+    grid-template-columns:1fr 1 fr ;
+    margin-top: 126px;
+    grid-template-areas: 'I C';
+    
+}
+.pic{
+    width: 650px;
+}
+.us{
+    font-family: 'Playfair Display', serif;  
+    font-size: 50pt;
+    font-weight: 600;
+    color: black;
+}
+.Middle{
+    height:1px ;
+    width: 60px;
+    margin-top: 15px;
+    background-color :#e3a062;
+}
+.Image{
+    grid-area: I;
+    margin: 0 auto;
+   
+}
+.Content{
+    grid-area: C;
+    margin-top: 126px;;
+}
+.Text{
+    font-family: 'Kulim Park', sans-serif;
+    color: black;
+    margin-top: 15px;
+}
+.button{
+    display: inline-block;
+  width: 148px;
+  height: 36px;
+  font-family: 'Kulim Park', sans-serif;
+  font-size: 10px;
+  margin-top: 50px;
+  color: black;
+  border: 1px solid #e3a062;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  background-color: #fff;
+}
+.button:hover{
+    background-color:#e3a062;
+    color: white;
+}
+

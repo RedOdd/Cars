@@ -1,0 +1,104 @@
+.Service{
+    background-image: url('../Charger_Customs_Free_Psd_Template-assets//Caa.png');
+    background-size: cover;
+    height: 528px;
+    margin-top: 80px;
+}
+.disc{
+    padding-top: 116px;
+    margin-left: 300px;
+}
+.text{
+    font-family: 'Playfair Display', serif;  
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+   
+}
+.stick{
+    height:2px ;
+    width:50px ;
+    background-color :#e3a062;
+    margin-top: 5px;
+}
+.cars{
+    margin-top: 70px;
+    display: grid;
+    grid-template-areas:'i res rep' ;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 348px;
+    width: 1140px;
+    margin-left: 300px;
+}
+.restolation{
+    background-image: url('../Charger_Customs_Free_Psd_Template-assets/semen-borisov-361522.png');
+    height: 348px;
+    background-repeat: no-repeat;
+    grid-area: res;
+    &:hover{
+    background-image: url('../Charger_Customs_Free_Psd_Template-assets/Restoration.png');
+    }
+}
+.textres,
+.texrep,
+.tunings{
+    text-align: center;
+    margin-top: 300px;
+    color: white;
+    margin-right: 30px;
+}
+.repairs{
+    background-image: url('../Charger_Customs_Free_Psd_Template-assets/igor-ovsyannykov-267661.png');
+    height: 348px;
+    background-repeat: no-repeat;
+    grid-area: rep;
+    &:hover{
+        background-image: url('../Charger_Customs_Free_Psd_Template-assets/Repairs.png');
+    }
+}
+.info{
+    background-image: url('../Charger_Customs_Free_Psd_Template-assets/trevor-bobyk-422783.png');
+    height: 348px;
+    background-repeat: no-repeat;
+    grid-area: i;
+    &:hover{
+        background-image: url('../Charger_Customs_Free_Psd_Template-assets/Tuning.png');
+    }
+}
+.MainText{
+    margin-top: 90px;
+    text-align: center;
+    color: white;
+    font-family: 'Kulim Park', sans-serif;
+    margin-right: 25px;
+}
+.sticks{
+    height:2px ;
+    width:30px ;
+    background-color :#e3a062;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.Tuning{
+    font-size: 25px;
+}
+.description{
+    margin-top: 20px;
+    line-height: 26px;
+}
+.ref{
+    display: block;
+    color:#e3a062;
+    text-decoration: none;
+}
+.More{
+    margin-top: 38px;
+    font-family: 'Kulim Park', sans-serif;
+}
+.line{
+    height:1px ;
+    width: 85px;
+   margin-top: 7px;
+   margin-left: 135px;
+    background-color :#e3a062;
+}
